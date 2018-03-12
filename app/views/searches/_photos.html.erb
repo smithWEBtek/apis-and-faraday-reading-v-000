@@ -1,9 +1,0 @@
-<% if venue_photos.count == 0 %>
-	<h2>No photos for this venue</h2>
-<% else %>
-
-<h3>Venue photos:</h3>
-<% venue_photos.each do |photo| %>
-	<img src=<%= "#{photo}" %> alt='pic' />
-	<% end %>
-<% end %>
