@@ -1,4 +1,5 @@
-class Cloud
+class Cloud < ActiveRecord::Base
+
 	include HTTParty
 	api_key = ENV["API_KEY"]
 	api_secret = ENV["API_SECRET"]

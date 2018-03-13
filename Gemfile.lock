@@ -191,6 +191,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  activerecord
   byebug
   carrierwave
   cloudinary
